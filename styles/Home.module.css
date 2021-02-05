@@ -44,9 +44,15 @@
 }
 
 @media (max-width: 700px) {
-  .grid, .navbar {
+  .grid {
     width: 100%;
     flex-direction: column;
+  }
+}
+
+@media (max-width: 460px) {
+  .navbar {
+    width: 300px;
   }
 }
 
