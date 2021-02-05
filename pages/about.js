@@ -2,17 +2,16 @@ import Head from 'next/head'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
-export default function Home() {
+export default function About() {
   return (
     <div className={styles.container}>
       <Head>
         <title>Airlines</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to Airlines 
+          About
         </h1>
         
         <div className={styles.navbar}>
@@ -32,7 +31,7 @@ export default function Home() {
         
         <div className={styles.grid}>
           <div className={styles.cardSimple}>
-            Hello 👋, this is some text to explain what we are planning to do. Here's a link to my <a href="">store</a>.
+            Here is some text about us. Here is some text about us. Here is some text about us. Here is some text about us. Here is some text about us.
           </div>
         </div>
       </main>
