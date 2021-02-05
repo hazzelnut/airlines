@@ -31,7 +31,7 @@ export default function About() {
         
         <div className={styles.grid}>
           <div className={styles.cardSimple}>
-            Here is some text about us. Here is some text about us. Here is some text about us. Here is some text about us. Here is some text about us.
+            Here is some text about us. Here is some text about us. Here is some text about us. Here is some text about us. Here is some text about us. Please email us at <a href="mailto:blahblahblah@gmail.com">insert_email_here@gmail.com</a>
           </div>
         </div>
       </main>
