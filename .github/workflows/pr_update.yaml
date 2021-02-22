@@ -9,5 +9,5 @@ jobs:
       - uses: tzkhan/pr-update-action@v2
         with:
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
-          head-branch-regex: '[A-Za-z]+-\d+'
+          head-branch-regex: '[AIRLINE]+-\d+'
           title-template: '[%headbranch%](https://url/to/browse/ticket/%headbranch%): '
