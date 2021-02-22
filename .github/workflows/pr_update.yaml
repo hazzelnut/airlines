@@ -6,8 +6,8 @@ jobs:
   update_pr:
     runs-on: ubuntu-latest
     steps:
-      - continue-on-error: true
       - uses: tzkhan/pr-update-action@v2
+        continue-on-error: true
         with:
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
           lowercase-branch: false
