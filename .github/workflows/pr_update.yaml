@@ -11,4 +11,6 @@ jobs:
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
           lowercase-branch: false
           head-branch-regex: '[AIRLINE]+-\d+'
-          title-template: '[%headbranch%](https://url/to/browse/ticket/%headbranch%): '
+          title-template: '%headbranch%: '
+          body-template: |
+            Ticket: [%headbranch%](https://url/to/browse/ticket/%headbranch%)
