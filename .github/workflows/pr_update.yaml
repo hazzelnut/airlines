@@ -6,7 +6,7 @@ on:
 
 jobs:
   update_pr:
-  name: Update PR
+    name: Update PR
     runs-on: ubuntu-latest
     steps:
       - uses: tzkhan/pr-update-action@v2
