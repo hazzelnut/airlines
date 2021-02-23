@@ -1,38 +1,48 @@
-_Task: https:/some/url/{insert-URL}_
+<!-- 
+Task: https:/some/url/{insert-URL}_
+-->
 
 **Purpose**
 
-_e.g. To make it easier to write PRs and to provide more details for the reviewer._
-
-_Example Questions:_
-- _What user story is being implemented or what problem is being solved?_
-- _What value is this change providing?_
-- _Why is this change being made or feature being added?_
+<!-- e.g. To make it easier to write PRs and to provide more details for the reviewer. -->
+<!--
+Example Questions:_
+- What user story is being implemented or what problem is being solved?
+- What value is this change providing?
+- Why is this change being made or feature being added?
+-->
 
 **Changes**
 
-_e.g._
-- _Add an optional Jira task link above_
-- _Add headings for different sections of this PR_
-- _Add optional headings to provide more information_
+<!--
+e.g.
+- Add an optional Jira task link above
+- Add headings for different sections of this PR
+- Add optional headings to provide more information
 
-_e.g. Add a pull request template for our `imply-cloud` so future pull requests will use this template._
+<!-- e.g. Add a pull request template for our `imply-cloud` so future pull requests will use this template. -->
 
-_Example Questions:_
-- _How was the solution or feature implemented?_
-- _What new classes, files, or modules were created or modified to implement the story?_
+<!--
+Example Questions:
+- How was the solution or feature implemented?
+- What new classes, files, or modules were created or modified to implement the story?
+-->
 
 **Context (Optional)**
 
-_e.g. As requested from one our retrospectives, we want to have more descriptive PRs.
+<!--
+e.g. As requested from one our retrospectives, we want to have more descriptive PRs.
 Having a good template would encourage us, I hope, to not leave an empty description.
-One-liner descriptions would be okay I suppose..._
+One-liner descriptions would be okay I suppose...
+-->
 
 **Testing Notes (Optional)**
 
-_e.g. To run all the unit tests do `make unit` or to run this specific test, do `make ...`_
+<!-- e.g. To run all the unit tests do `make unit` or to run this specific test, do `make ...` -->
 
-_e.g. To run a manual test do:_
-- _Check whether someone has read this document_
-- _Make sure they've understood all the components of this document_
-- _Double make sure they've read everything up until this line_
+<!--
+e.g. To run a manual test do:
+- Check whether someone has read this document
+- Make sure they've understood all the components of this document
+- Double make sure they've read everything up until this line
+-->
